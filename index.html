@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>CV - Berezenko Elena</title>
 </head>
 <body>
   <header class="page-header">
     <div class="container">
       <ul class="contacts">
-        <li><a href="mailto:e.berezenko@mail.ru">e-mail</a></li>
-        <li><a href="https://github.com/GlukoLyoFF/rsschool-cv">github</a></li>
-        <li><a href="https://discord.com/users/472814498810691615">discord</a></li>
+        <li><a class="mail" href="mailto:e.berezenko@mail.ru">e-mail</a></li>
+        <li><a class="gh" href="https://github.com/GlukoLyoFF/rsschool-cv">github</a></li>
+        <li><a class="ds" href="https://discord.com/users/472814498810691615">discord</a></li>
       </ul>
     </div>
   </header>
@@ -45,13 +48,12 @@
       </ol>
       <h3 class="subsubheading">Code example</h3>
       <pre class="code">
-        <span class="comment">// I wanted to show something simple but effective in this example</span>
+  <span class="comment">// I wanted to show something simple but effective in this example</span>
 
-        <span class="keyword">let</span> getSortedArray <span class="symb">=</span> <span class="keyword">function</span><span class="symb">(</span>array<span class="symb">,</span> key<span class="symb">) {</span>
-          array<span class="symb">.</span><span class="keyword">sort</span><span class="symb">((</span>a<span class="symb">,</span> b<span class="symb">) =></span> a<span class="symb">[</span>key<span class="symb">] -</span> b<span class="symb">[</span>key<span class="symb">]);</span>
-          <span class="keyword">return</span> array<span class="symb">;</span>
-          <span class="symb">}</span>
-      </pre>
+  <span class="keyword">let</span> getSortedArray <span class="symb">=</span> <span class="keyword">function</span><span class="symb">(</span>array<span class="symb">,</span> key<span class="symb">) {</span>
+    array<span class="symb">.</span><span class="keyword">sort</span><span class="symb">((</span>a<span class="symb">,</span> b<span class="symb">) =></span> a<span class="symb">[</span>key<span class="symb">] -</span> b<span class="symb">[</span>key<span class="symb">]);</span>
+    <span class="keyword">return</span> array<span class="symb">;</span>
+  <span class="symb">}</span></pre>
     </section>
 
     <section class="hobby">
@@ -65,33 +67,32 @@
   </main>
 
   <aside class="container right">
-    <section class="skills-langs">
-      <h2 class="subheading">Skills</h2>
-      <ul class="skills">
-        <li>Programming langs:
-          <ul class="subskills">
-            <li>Python <em>(main)</em></li>
-            <li>JS <em>(basics)</em></li>
-            <li>C/C++/C# <em>(basics)</em></li>
-          </ul>
-        </li>
-        <li>HTML/CSS</li>
-        <li>Figma/Ps</li>
-      </ul>
+    <h2 class="subheading">Skills</h2>
+    <ul class="skills">
+      <li>Programming langs:
+        <ul class="subskills">
+          <li>Python <em>(main)</em></li>
+          <li>JS <em>(basics)</em></li>
+          <li>C/C++/C# <em>(basics)</em></li>
+        </ul>
+      </li>
+      <li>HTML/CSS</li>
+      <li>Figma/Ps</li>
+    </ul>
 
-      <h2 class="subheading">Languages</h2>
-      <ul class="langs">
-        <li>English <em>(basic - A2)</em></li>
-      </ul>
-    </section>
+    <h2 class="subheading">Languages</h2>
+    <ul class="langs">
+      <li>Russian <em>(Native)</em></li>
+      <li>English <em>(B1-B2)</em></li>
+    </ul>
   </aside>
 
   <footer class="page-footer">
     <div class="container">
       <ul class="contacts">
-        <li><a href="mailto:e.berezenko@mail.ru">e-mail</a></li>
-        <li><a href="https://github.com/GlukoLyoFF/rsschool-cv">github</a></li>
-        <li><a href="https://discord.com/users/472814498810691615">discord</a></li>
+        <li><a class="mail" href="mailto:e.berezenko@mail.ru">e-mail</a></li>
+        <li><a class="gh" href="https://github.com/GlukoLyoFF/rsschool-cv">github</a></li>
+        <li><a class="ds" href="https://discord.com/users/472814498810691615">discord</a></li>
       </ul>
     </div>
   </footer>
