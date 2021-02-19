@@ -1,3 +1,4 @@
 # rsschool-cv
 rsschool stage#0 repo
-https://GlukoLyoFF.github.io/rsschool-cv/cv
+CV Markdown - https://GlukoLyoFF.github.io/rsschool-cv/cv
+CV HTML&CSS - https://glukolyoff.github.io/rsschool-cv/
